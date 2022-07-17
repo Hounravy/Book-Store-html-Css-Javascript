@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="img/books/Turtle-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/books/Turtle-logo.png" class="logo" alt="" ></a>
+        <div>
+            <ul id="navbar">
+              <li><a  href="index.html">Home</a></li>
+              <li><a  href="shop.html">Shop</a></li>
+              <li><a  href="blog.html">Blog</a></li>
+              <li><a  href="about.html">About</a></li>
+              <li><a  href="contact.html">Contact</a></li>
+              <li><a class="active" href="cart.html"><i class="bi bi-cart-check"></i></a></li>
+
+            </ul>
+            <div id="mobile">
+
+                <i class="bi bi-list-ul"></i>
+                    <a href="cart.html">
+                        <i class="bi bi-cart-check"></i>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact-banner" class="section-p1" >
+        <div class="blog">
+            <h2>Our Location & Address</h2>
+        <p>Contact Us Now!!</p>
+        </div>
+        
+        
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="bi bi-x-circle"></i></a></td>
+                    <td><img src="img/books/good.jpg" alt=""></td>
+                    <td>Good Vibes, Good Life</td>
+                    <td>$30.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="bi bi-x-circle"></i></a></td>
+                    <td><img src="img/books/harry/harry1.png" alt=""></td>
+                    <td>harry potter</td>
+                    <td>$19.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$19.00</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="bi bi-x-circle"></i></a></td>
+                    <td><img src="img/books/fix.jpg" alt=""></td>
+                    <td>Fix Her Up </td>
+                    <td>$15.20</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$15.20</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="add-cart" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" Enter Your Coupon>
+                <button class="simple">Apply</button>
+            </div>
+
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Total</td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$30.00</strong></td>
+                </tr>
+            </table>
+            <button class="simple">Proceed To Checkout</button>
+
+        </div>
+    </section>
+
+    <footer id="contact" class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/books/Turtle-logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> #123 Preyveang Dongkoa Phnom Penh</p>
+            <p><strong>Phone: </strong> +885 882101966</p>
+            <p><strong>Hours: </strong> 9:00-21:00</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4> About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delevery Information</a>
+            <a href="#"> Privacy plolicy</a>
+            <a href="#">Term & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+        <div class="col">
+            <h4> My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#"> My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+        <div class="col">
+            <div>
+                <img class="qr" src="img/books/qrcode.png" alt="">
+                <h4>Scan QR code </h4>
+            </div>
+           
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
